@@ -162,7 +162,7 @@ textarea.form-control {
 .table.no-border > thead > tr > td,
 .table.no-border > thead > tr > th {
   border-top: 0;
-  padding: 10px 8px;
+  padding: 0px 0px;
 }
 .table-nowrap td,
 .table-nowrap th {
@@ -3253,7 +3253,7 @@ table.table-inbox tbody tr.checked {
 
 @media (max-width: 767.98px) {
   body {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   h1,
   .h1 {
