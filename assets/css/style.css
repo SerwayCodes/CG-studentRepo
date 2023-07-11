@@ -180,7 +180,7 @@ table.table td h2 {
   padding: 0;
   vertical-align: middle;
 }
-table.table td h2{
+table.table td h2 {
   align-items: center;
   display: inline-flex;
   font-size: inherit;
@@ -253,6 +253,9 @@ table.table td h2 span {
   border-top: 1px solid #e2e5e8;
   padding: 1rem 0.75rem;
   white-space: nowrap;
+}
+.card-size{
+  width: 60%;
 }
 .table .thead-light th {
   color: #495057;
@@ -3094,9 +3097,7 @@ table.table-inbox tbody tr.checked {
   .h6 {
     font-size: 0.875rem;
   }
-  .header .has-arrow .dropdown-toggle:after {
-    display: none;
-  }
+
   .user-menu.nav > li > a > span:not(.user-icon) {
     display: none;
   }
@@ -3201,6 +3202,7 @@ table.table-inbox tbody tr.checked {
   .card-body {
     padding: 1.25rem;
   }
+
   .card-header {
     padding: 0.75rem 1.25rem;
   }
