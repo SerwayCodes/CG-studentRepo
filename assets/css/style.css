@@ -254,7 +254,7 @@ table.table td h2 span {
   padding: 1rem 0.75rem;
   white-space: nowrap;
 }
-.card-size{
+.card-size {
   width: 60%;
 }
 .table .thead-light th {
@@ -703,7 +703,6 @@ button.bg-danger:hover {
 .btn-outline-success.focus {
   box-shadow: none;
 }
-
 
 .btn-outline-success:not(:disabled):not(.disabled):active:focus,
 .btn-outline-success:not(:disabled):not(.disabled).active:focus,
@@ -3273,7 +3272,11 @@ table.table-inbox tbody tr.checked {
     font-size: 13px;
   }
 }
-
+@media (max-width: 540.98px) {
+  .mubas {
+    margin: auto;
+  }
+}
 @media (max-width: 479px) {
   .page-header .breadcrumb {
     display: none;
