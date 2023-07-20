@@ -473,6 +473,7 @@ button.bg-danger:hover {
   border-color: #18aefa;
   color: #fff;
 }
+
 .btn-primary.active:focus:not(:disabled):not(.disabled),
 .btn-primary:active:focus:not(:disabled):not(.disabled),
 .show > .btn-primary.dropdown-toggle:focus {
@@ -1417,7 +1418,7 @@ html.menu-opened body {
   color: #ddd;
 }
 .top-nav-search .form-control::placeholder {
-  color: #ddd;
+  color: #faf8f8;
 }
 .top-nav-search.active form {
   display: block;
@@ -1682,22 +1683,22 @@ footer p {
 
 .login-body {
   display: table;
-  height: 100vh;
-  min-height: 100vh;
+  height: 90vh;
+  min-height: 90vh;
 }
 .login-wrapper {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
   display: table-cell;
   vertical-align: middle;
 }
 .login-wrapper .loginbox {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 6px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display: flex;
   margin: 1.875rem auto;
-  max-width: 800px;
+  max-width: 500px;
   min-height: 500px;
   width: 100%;
 }
