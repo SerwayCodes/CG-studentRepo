@@ -1433,6 +1433,7 @@ html.menu-opened body {
 footer {
   padding: 1.875rem 1.875rem;
   border-top: 1px solid #ddd;
+  text-align: center;
 }
 footer p {
   margin: 0px;
@@ -1648,10 +1649,14 @@ footer p {
   min-height: 100vh;
 }
 .page-wrapper {
+  display: flex;
   margin-left: 320px;
   padding-top: 60px;
   position: relative;
   transition: all 0.4s ease;
+  min-height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .page-wrapper > .content {
   padding: 1.875rem 1.875rem 0;
