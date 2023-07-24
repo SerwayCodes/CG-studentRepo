@@ -3295,7 +3295,7 @@ table.table-inbox tbody tr.checked {
     font-size: 13px;
   }
 }
-@media (max-width: 540.98px) {
+@media (max-width: 940.98px) {
   .mubas {
     margin: auto;
   }
